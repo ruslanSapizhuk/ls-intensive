@@ -22,15 +22,12 @@ export default function Buy() {
                             </Button>
                         </Link>
                         <h2 className="text-3xl text-center mt-5 uppercase font-bold mb-10 text-default">
-                            Зачекай! Давай я збережу тобі 500$
+                            Зачекай! <br/>
+                            Давай я збережу тобі 500$
                         </h2>
                         <p className="mb-5 dark:text-black md:pr-30 text-center">
                             Зараз не обовʼязково наймати команду, щоб зробити лендінг, налашутвати та підключити оплати та запрограмувати кабінет для видачі матеріалів - ТИ ЦЕ ВСЕ МОЖЕШ ЗРОБИТИ САМОСТІЙНО!
                         </p>
-                        <div className="mb-5 bg-white rounded-3xl p-5 font-bold text-center">
-                            Створюй курси, марафони,
-                            практикуми і відразу монетизуй їх 👇
-                        </div>
                         <div className="grow-1 bg-white rounded-3xl p-5">
                             <h3 className={"font-bold mb-5 text-center"}>
                                 ЗАБИРАЙ ДЕТАЛЬНІ ВІДЕО УРОКИ ДЕ Я РОЗПОВІМ ТОБІ
@@ -47,12 +44,12 @@ export default function Buy() {
                                 </li>
                             </ol>
                             <p className={"uppercase text-center text-xl mb-5"}>
-                                Тобто все разом коштує <br/>
+                                Тобто <br/>все разом коштує <br/>
                                 $60
                             </p>
-                            <p className={"text-center text-2xl text-default uppercase font-bold"}>
+                            <p className={"text-center text-xl text-default uppercase mb-5"}>
                                 Але зараз: <br/>
-                                15 $
+                                <span className={"font-bold text-2xl"}>$15</span>
                             </p>
                             <p className={"text-xl font-bold text-center"}>
                                 Якщо додати ці 3 продукти до інтенсиву з бонусами то вийде

@@ -44,9 +44,9 @@ export default function Success() {
                         Я знаю як потрібна підтримка на старті! Інколи самому вкрай важко з усім розібратися
                     </p>
                     <p className={"mb-5 text-center text-xl"}>
-                        Тому я пропоную тобі свою підтримку - зідзвон на 90 хв зі мною
+                        Тому я пропоную тобі свою підтримку - <b>зідзвон на 90 хв зі мною</b>
                     </p>
-                    <p className={"mb-5 font-bold text-center text-xl"}>
+                    <p className={"mb-5 text-center text-xl"}>
                         Де ми розберемо абсолютно всі моменти та нюанси, які потрібні для запуску саме в твоїй ніші.
                     </p>
                     <p className={"mb-5 text-center text-xl font-bold"}>
