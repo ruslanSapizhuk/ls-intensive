@@ -1,0 +1,1 @@
+export {FacebookPixel as default} from "./FacebookPixel"
