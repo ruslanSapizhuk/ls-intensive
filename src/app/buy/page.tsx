@@ -4,86 +4,93 @@ import FacebookPixel from "@/components/FacebookPixel";
 
 export default function Buy() {
     return (
-       <>
-           <FacebookPixel/>
-           <div className={"md:w-96 mx-auto p-5"}>
-               <main>
-                   <header className={"mb-5"}>
-                       <div className="text-2xl text-center">
-                           <i>
-                               <b>
-                                   by LANA B<small>&</small>M
-                               </b>
-                           </i>
-                       </div>
-                   </header>
-                   <section className={"mb-10"}>
-                       <div>
-                           <Link href={"https://secure.wayforpay.com/button/bb123f60b127a"}>
-                               <Button className={"w-full"} inverted>
-                                   Інтенсив + бонуси за $9
-                               </Button>
-                           </Link>
-                           <h2 className="text-3xl text-center mt-5 uppercase font-bold mb-10 text-default">
-                               Зачекай! <br/>
-                               Давай я збережу тобі 500$
-                           </h2>
-                           <p className="mb-5 dark:text-black md:pr-30 text-center">
-                               Зараз не обовʼязково наймати команду, щоб зробити лендінг, налашутвати та підключити оплати та запрограмувати кабінет для видачі матеріалів - ТИ ЦЕ ВСЕ МОЖЕШ ЗРОБИТИ САМОСТІЙНО!
-                           </p>
-                           <div className="grow-1 bg-white rounded-3xl p-5">
-                               <h3 className={"font-bold mb-5 text-center"}>
-                                   ЗАБИРАЙ ДЕТАЛЬНІ ВІДЕО УРОКИ ДЕ Я РОЗПОВІМ ТОБІ
-                               </h3>
-                               <ol className={"list-decimal list-inside"}>
-                                   <li className={"mb-5"}>
-                                       Як зробили сайт через конструктор самостійно. Огляд популярних конструкторів
-                                   </li>
-                                   <li className={"mb-5"}>
-                                       Як налаштувати платіжну систему Wayforpay та підключити оплати до лендінгу
-                                   </li>
-                                   <li className={"mb-5"}>
-                                       Як налаштувати бот в TG для видачі матеріалів онлайн продукта
-                                   </li>
-                               </ol>
-                               <p className={"uppercase text-center text-xl mb-5"}>
-                                   Тобто <br/>все разом коштує <br/>
-                                   $60
-                               </p>
-                               <p className={"text-center text-xl text-default uppercase mb-5"}>
-                                   Але зараз: <br/>
-                                   <span className={"font-bold text-2xl"}>$15</span>
-                               </p>
-                               <p className={"text-xl font-bold text-center"}>
-                                   Якщо додати ці 3 продукти до інтенсиву з бонусами то вийде
-                               </p>
-                               <ul className={"mb-5"}>
-                                   <li>
-                                       ✔️ 14-дений інтенсив + 2 бонуси
-                                   </li>
-                                   <li>
-                                       ✔️ Розробка сайту
-                                   </li>
-                                   <li>
-                                       ✔️ Підключеня оплат Wayforpay
-                                   </li>
-                                   <li>
-                                       ✔️ Бот в TG
-                                   </li>
-                               </ul>
-                               <p className={"text-2xl text-default font-bold mb-5"}>
-                                   Все разом $9 + $15 = $24
-                               </p>
-                               <Link href={"https://secure.wayforpay.com/button/b7d462ef190ae"}>
-                                   <Button className={"w-full"}>
-                                       Придбати все за $24
-                                   </Button>
-                               </Link>
-                           </div>
-                       </div>
-                   </section>
-               </main>
-           </div>
-       </>
+        <>
+            <FacebookPixel />
+            <div className={"md:w-96 mx-auto p-2 bg-fill"}>
+                <main>
+                    <header className={"mb-5"}>
+                        <div className="text-2xl text-center mt-5">
+                            <b>
+                                by LANA SAPIZHUK
+                            </b>
+                        </div>
+                    </header>
+                    <section className={"mb-10 bg-fill"}>
+                        <div>
+                            <Link href={"https://secure.wayforpay.com/button/bb123f60b127a"}>
+                                <Button className={"w-full bg-dark"}>
+                                    Курс + 2 бонуси за 39 $
+                                </Button>
+                            </Link>
+                            <h2 className="text-3xl text-center mt-5 uppercase font-bold mb-10 text-dark p-4">
+                                Зачекай! <br />
+                                Давай я збережу тобі 2000$
+                            </h2>
+                            <p className="mb-5 dark:text-black md:pr-30 text-center text-[24px] px-4">
+                                Зараз не обовʼязково наймати команду, щоб зробити сайт, налашутвати та підключити оплачи через Apple чи Google pay, зробити розтермінування платежу, створити бота в IG чи TG, а також не потрібно писати код для кабінету юзера!
+                            </p>
+                            <p className="font-bold text-[24px] text-center px-4 mb-6">ТИ ЦЕ ВСЕ МОЖЕШ ЗРОБИТИ САМОСТІЙНО!</p>
+                            <div className="grow-1 bg-white rounded-3xl p-5">
+                                <h3 className={"font-bold mb-5 text-center text-[24px]"}>
+                                    ЗАБИРАЙ 4 ДЕТАЛЬНІ МАЙСТЕР КЛАСИ ДЕ НАВЧУ ТЕБЕ 👇
+                                </h3>
+                                <ol className={"list-decimal list-inside text-[18px]"}>
+                                    <li className={"mb-5"}>
+                                        Як зробити сайт через конструктори від WayForPay та Webium самостійно
+                                    </li>
+                                    <li className={"mb-5"}>
+                                        Як налаштувати платіжну систему Wayforpay та підключити оплати до сайту та налаштувати розтермінування від MONO та PRIVAT
+                                    </li>
+                                    <li className={"mb-5"}>
+                                        Як створити бота в Інстаграмі для комунікації з лідами та продажів. < br /><b>Ти отримаєш 3 готових шаблона налаштувань під різні сценарії - для видачі лід магніту,  для продажів, а також інтерактивний тест.</b>
+                                    </li>
+                                    <li className={"mb-5"}>
+                                        Створити бота в телеграм каналі для видачі лід магнітів, уроків міні продукту та доп. продажів інших по лінійці.
+                                    </li>
+                                    <li>
+                                        Які LMS платформи можна використати для наповнення основного курсу для ринку України та для продажів на ринок закордоном.
+                                    </li>
+                                </ol>
+                                <p className={"uppercase text-center text-xl mb-5"}>
+                                    Тобто <br />все разом коштує <br />
+                                    $199
+                                </p>
+                                <p className={"text-center text-xl font-bold text-default uppercase mb-5"}>
+                                    Але зараз: <br />
+                                    <span className={"font-bold text-2xl"}>$49</span>
+                                </p>
+                                <p className={"text-xl font-bold text-center mb-6"}>
+                                    Якщо додати ці 4 продукти до інтенсиву з бонусами то вийде
+                                </p>
+                                <ul className={"mb-5"}>
+                                    <li>
+                                        ✔️ Курс по запуску + 2 рекомендації по таргету та креативам
+                                    </li>
+                                    <li>
+                                        ✔️5 додаткових майстер класів
+                                    </li>
+                                </ul>
+                                <p className={"text-2xl text-default font-bold mb-5"}>
+                                    Все разом $39 + $49 = $88
+                                </p>
+                                <Link href={"https://secure.wayforpay.com/button/b7d462ef190ae"}>
+                                    <Button className={"w-full"}>
+                                        Придбати все за $88
+                                    </Button>
+                                </Link>
+                            </div>
+                        </div>
+                        <div>
+                            <p className="text-center text-xl font-bold my-5">Але якщо ти хочеш лише курс та бонус, тоді ось кнопка </p>
+                            <Link href={"https://secure.wayforpay.com/button/b7d462ef190ae"}>
+                                <Button className={"w-full bg-default"}>
+                                    Курс + 2 бонуси за 39 $
+                                </Button>
+                            </Link>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </>
     );
 }
