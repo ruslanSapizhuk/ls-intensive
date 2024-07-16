@@ -10,10 +10,13 @@ module.exports = {
     extend: {
       colors: {
         default: "#A699FF",
+        'default-40': 'rgba(166, 153, 255, 0.4)',
+        dark: "#7D69FF",
+        fill: "#F4F3FE",
       },
       backgroundColor: {
         default: "#ACA0FE",
-        label: "rgba(167, 153, 255, 0.4)"
+        label: "rgba(167, 153, 255, 0.4)",
       },
       backgroundImage: {
         "gradient": "linear-gradient(270deg, #E2DFF6 0.03%, #A699FF 99.97%)",
@@ -21,6 +24,16 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        gradientfill: "linear-gradient(292deg, rgba(255,255,255,1) 0%, rgba(222,218,255,1) 98%)",
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        marquee: 'marquee 15s linear infinite',
       },
     },
     rotate: {
