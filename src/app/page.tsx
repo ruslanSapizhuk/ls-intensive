@@ -179,7 +179,7 @@ export default function Home() {
                 className={"text-5xl font-extrabold mb-5"}
                 startDate={new Date("03-20-2024")} format={["hours", "minutes", "seconds"]}
               />
-              <p className={"text-white text-xl mb-5"}><s>$156</s> <b className={"text-4xl"}>$39</b></p>
+              <p className={"text-white text-xl mb-5"}><s>$40</s> <b className={"text-4xl"}>$10</b></p>
               <Link href={"/buy"} className={"w-full"}>
                 <Button className={"w-full"}>
                   Придбати
@@ -190,7 +190,7 @@ export default function Home() {
               <p className={"mb-5 text-xl font-bold"}>
                 При покупці практикуму ти отримаєш 2 крутезних бонуса від моєї команди в подарунок 🎁
               </p>
-              <ol className={"text-left list-decimal list-inside text-xl font-bold"}>
+              <ol className={"text-left list-decimal list-inside text-xl font-default"}>
                 <li className={"mb-5"}>
                   Детальну інструкцію по налаштуванню таргету з нашими авторськими рекомендаціями.
                 </li>
@@ -200,13 +200,13 @@ export default function Home() {
               </ol>
               <p className={"mb-5 text-xl uppercase"}>
                 Все разом коштує <br />
-                <s>$195</s>
+                <p>$59</p>
               </p>
               <p className={"mb-1 text-[24px] uppercase font-bold text-default"}>
                 Але зараз:
               </p>
               <p className={"mb-5 text-[40px] uppercase font-bold text-default"}>
-                $39
+                $10
               </p>
               <Link href={"/buy"}>
                 <Button className={"w-full"}>

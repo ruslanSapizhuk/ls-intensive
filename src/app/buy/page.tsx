@@ -17,14 +17,14 @@ export default function Buy() {
                     </header>
                     <section className={"mb-10 bg-fill"}>
                         <div>
-                            <Link href={"https://secure.wayforpay.com/button/bb123f60b127a"}>
+                            <Link href={"https://secure.wayforpay.com/button/bfac208013485"}>
                                 <Button className={"w-full bg-dark"}>
-                                    Курс + 2 бонуси за 39 $
+                                    Курс + 2 бонуси за 10 $
                                 </Button>
                             </Link>
-                            <h2 className="text-3xl text-center mt-5 uppercase font-bold mb-10 text-dark p-4">
+                            <h2 className="text-[28px] text-center mt-5 uppercase font-bold mb-10 text-dark p-4">
                                 Зачекай! <br />
-                                Давай я збережу тобі 2000$
+                                Давай я збережу тобі 2000$💸
                             </h2>
                             <p className="mb-5 dark:text-black md:pr-30 text-center text-[24px] px-4">
                                 Зараз не обовʼязково наймати команду, щоб зробити сайт, налашутвати та підключити оплачи через Apple чи Google pay, зробити розтермінування платежу, створити бота в IG чи TG, а також не потрібно писати код для кабінету юзера!
@@ -53,11 +53,11 @@ export default function Buy() {
                                 </ol>
                                 <p className={"uppercase text-center text-xl mb-5"}>
                                     Тобто <br />все разом коштує <br />
-                                    $199
+                                    $80
                                 </p>
-                                <p className={"text-center text-xl font-bold text-default uppercase mb-5"}>
+                                <p className={"text-center text-[24px] font-bold text-default uppercase mb-5 leading-9"}>
                                     Але зараз: <br />
-                                    <span className={"font-bold text-2xl"}>$49</span>
+                                    <span className={"font-bold text-[40px]"}>$19</span>
                                 </p>
                                 <p className={"text-xl font-bold text-center mb-6"}>
                                     Якщо додати ці 4 продукти до інтенсиву з бонусами то вийде
@@ -71,20 +71,20 @@ export default function Buy() {
                                     </li>
                                 </ul>
                                 <p className={"text-2xl text-default font-bold mb-5"}>
-                                    Все разом $39 + $49 = $88
+                                    Все разом $10 + $19 = $29
                                 </p>
-                                <Link href={"https://secure.wayforpay.com/button/b7d462ef190ae"}>
+                                <Link href={"https://secure.wayforpay.com/button/b23382fa2f335"}>
                                     <Button className={"w-full"}>
-                                        Придбати все за $88
+                                        Придбати все за $29
                                     </Button>
                                 </Link>
                             </div>
                         </div>
                         <div>
                             <p className="text-center text-xl font-bold my-5">Але якщо ти хочеш лише курс та бонус, тоді ось кнопка </p>
-                            <Link href={"https://secure.wayforpay.com/button/b7d462ef190ae"}>
-                                <Button className={"w-full bg-default"}>
-                                    Курс + 2 бонуси за 39 $
+                            <Link href={"https://secure.wayforpay.com/button/bfac208013485"}>
+                                <Button className={"w-full bg-dark"}>
+                                    Курс + 2 бонуси за 10 $
                                 </Button>
                             </Link>
                         </div>
