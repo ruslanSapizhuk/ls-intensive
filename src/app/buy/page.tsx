@@ -22,7 +22,7 @@ export default function Buy() {
                                     Курс + 2 бонуси за 10 $
                                 </Button>
                             </Link>
-                            <h2 className="text-[28px] text-center mt-5 uppercase font-bold mb-10 text-dark p-4">
+                            <h2 className="text-[28px] text-center mt-5 uppercase font-bold mb-4 text-dark p-4">
                                 Зачекай! <br />
                                 Давай я збережу тобі 2000$💸
                             </h2>
