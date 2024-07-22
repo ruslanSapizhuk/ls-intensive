@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <FacebookPixel />
-      <div className={"md:w-96 mx-auto bg-fill"}>
+      <div className={"md:w-96 mx-auto bg-fill pt-4"}>
         <main>
           <header className={"mb-5"}>
             <div className="text-3xl dark:text-black text-center">
@@ -45,8 +45,8 @@ export default function Home() {
               <h2 className="uppercase font-bold mt-6 text-xl">
                 Курс від Лани сапіжук
               </h2>
-              <h2 className="text-3xl mt-1 uppercase font-bold mb-10 text-default">
-                ШВИДКИЙ СТАРТ В ІНФО БІЗНЕСІ - просто підстав своє
+              <h2 className="text-3xl mt-1 uppercase font-bold mb-10 text-dark">
+                Запусти свій інфо продукт за 14 днів та перетвори його в ІТ Edtech стартап
               </h2>
               <p className="mb-2 text-2xl">
                 Підходить для <b>експертів</b> з будь якої ніші (ІТ, AI, Фітнес, Б&#39;юті, Наука і т.д.), спеціалістів,
@@ -56,27 +56,30 @@ export default function Home() {
                 <p className="mb-5 text-center font-bold text-[23px]">
                   Зрозумій біль, зроби продукт, налаштуй робочі воронки, залучи трафік та продавай від < br />1000 $ на місяць👇
                 </p>
-                <ul className="mb-5 text-left leading-8">
-                  <li>
+                <ul className="mb-5 text-left">
+                  <li className="mb-2">
                     🔹 без підписників
                   </li>
-                  <li>
+                  <li className="mb-2">
                     🔹 без постійного ведення блогу
                   </li>
-                  <li>
+                  <li className="mb-2">
                     🔹 без вебінарів
                   </li>
-                  <li>
+                  <li className="mb-2">
                     🔹 без залучення команди на постійній основі
                   </li>
-                  <li>
+                  <li className="mb-2">
                     🔹 без привʼязки до дати запуску, відразу продажі та видача матеріалу
                   </li>
-                  <li>
+                  <li className="mb-2">
                     ✅ навіть коли ти спиш
                   </li>
-                  <li>
+                  <li className="mb-2">
                     ✅ на високі чеки, за рахунок доп. продажів інших продуктів по воронці
+                  </li>
+                  <li className="mb-2">
+                    ✅ на міжнародні ринки завдяки АІ локалізації та секрету, який розповім на курсі!
                   </li>
                 </ul>
                 <p className="text-xl text-default font-bold uppercase mb-5 max-w-lg text-center">
@@ -112,57 +115,57 @@ export default function Home() {
               </div>
 
               <ul className="mb-5 list-none list-inside mt-5 text-xl leading-7 mx-4">
-                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} height={10} className="object-contain mr-5"></Image><b>Запустила Lifestyle та Edtech продуктів на 1🍋💸</b></li>
-                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} height={10} className="object-contain mr-5"></Image><p><b>8 р. в ІТ,</b> створювала ІТ продукти для бізнесу, відомих брендів та блогерів мільйонників</p>
+                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-cover mr-5 flex-shrink-0"></Image><b>Запустила Lifestyle та Edtech продуктів на 1🍋💸</b></li>
+                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-cover mr-5 flex-shrink-0"></Image><p><b>8 р. в ІТ,</b> створювала ІТ продукти для бізнесу, відомих брендів та блогерів мільйонників</p>
                 </li>
-                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} height={10} className="object-contain mr-5"></Image><p>Навчила більше <b>200 людей</b> запускам онлайн продуктів</p></li>
-                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} height={10} className="object-contain mr-5"></Image><p><b>Блогер:</b> експертний блог в IG 7к+ аудиторії</p></li>
-                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} height={10} className="object-contain mr-5"></Image><p>Запустила фітнес платформу (сайт та додаток) з <b>0 до 250к реєстрацій</b></p></li>
+                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p>Навчила більше <b>200 людей</b> запускам онлайн продуктів</p></li>
+                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p><b>Блогер:</b> експертний блог в IG 7к+ аудиторії</p></li>
+                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p>Запустила фітнес платформу (сайт та додаток) з <b>0 до 250к реєстрацій</b></p></li>
               </ul>
             </div>
           </section>
-          <h3 className="text-center font-bold text-2xl mb-4">НА КУРСІ ТИ < br />ЗРОЗУМІЄШ👇🏻 </h3>
+          <h3 className="text-center font-bold text-2xl mb-4">НА КУРСІ ТИ ЗРОЗУМІЄШ👇🏻 </h3>
           <section className="mb-10 bg-default px-2 py-2">
 
             <div className="flex bg-white p-2 rounded-md mb-5 mt-5">
               <p className="text-sm mr-2 font-bold">1.</p>
-              <p className="text-sm font-bold">Як проаналізувати ринок та конкурентів, знайти біль та свою ЦА </p>
+              <p className="text-sm font-bold pr-2">Як проаналізувати ринок та конкурентів, знайти біль та свою ЦА </p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-5">
               <p className="text-sm mr-2 font-bold">2.</p>
-              <p className="text-sm font-bold">Як  створити правильне позиціонування, а також свою унікальну торгову пропозицію (УТП)</p>
+              <p className="text-sm font-bold pr-2">Як  створити правильне позиціонування, а також свою унікальну торгову пропозицію (УТП)</p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-5">
               <p className="text-sm mr-2 font-bold">3.</p>
-              <p className="text-sm font-bold">Як створити продуктову лінійку - лід магніт, тріпваєр, основний продукт, даунсейл продукт. Які програми використати щоб записати лекції та як це робити!</p>
+              <p className="text-sm font-bold pr-2">Як створити продуктову лінійку - лід магніт, тріпваєр, основний продукт, даунсейл продукт. Які програми використати щоб записати лекції та як це робити!</p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-5">
               <p className="text-sm mr-2 font-bold">4.</p>
-              <p className="text-sm font-bold">Як швидко створити перше MVP інфо продукту з мінімальними зусиллями та затратами по бюджету</p>
+              <p className="text-sm font-bold pr-2">Як швидко створити перше MVP інфо продукту з мінімальними зусиллями та затратами по бюджету</p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-5">
               <p className="text-sm mr-2 font-bold">5.</p>
-              <p className="text-sm font-bold">Які воронки вибрати для старту. Розбір топ 5-ти самих дієвих воронок, для продажів інфо продуктів в 2024 році</p>
+              <p className="text-sm font-bold pr-2">Які воронки вибрати для старту. Розбір топ 5-ти самих дієвих воронок, для продажів інфо продуктів в 2024 році</p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-5">
               <p className="text-sm mr-2 font-bold">6.</p>
-              <p className="text-sm font-bold">Як залучати платний трафік за допомогою таргету та безкоштовний за допомогою соц. мереж та контенту</p>
+              <p className="text-sm font-bold pr-2">Як залучати платний трафік за допомогою таргету та безкоштовний за допомогою соц. мереж та контенту</p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-5">
               <p className="text-sm mr-2 font-bold">7.</p>
-              <p className="text-sm font-bold">Як швидко перекласти свій курс на анг. мову за допомогою АІ, та почати продавати на міжнародні ринки</p>
+              <p className="text-sm font-bold pr-2">Як перетворити свій Інфо продукт на EdTech стартап та вийти на міжнародні ринки!🌍</p>
               <Image src={lock} alt={"lock"} width={150} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
@@ -170,7 +173,7 @@ export default function Home() {
           <section className="mb-10">
           </section>
           <section className="mb-10" id="pay">
-            <h2 className={"text-2xl text-center font-bold mb-5"}>
+            <h2 className={"text-2xl text-center font-bold mb-5 p-1"}>
               Приєднуйтесь до курсу вже зараз за спеціальною, обмеженою у часі пропозицією
             </h2>
             <div className="text-center rounded-2xl bg-default p-5 flex flex-col items-center mb-5 mx-4">
@@ -230,11 +233,11 @@ export default function Home() {
           <section className="p-8">
             <div className="bg-dark rounded-[20px] p-4">
               <h2 className="text-white text-[25px] font-bold text-center leading-7">Залишились сумніви?</h2>
-              <p className="text-white text-center mt-4">Приходь на <span className="font-bold">безкоштовну діагностичну сесію</span> від мого продюсера</p>
-              <p className="text-white text-center mt-4 mb-4">Де ми розберемо твою точку А та Б, зрозуміємо твої цілі, та підберемо найкращий шлях для їх досягнення!</p>
-              <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSdUbz4Aef1ge3XZMutTGzCVkenogY8dVzKTe_iLthyd0-ZB0Q/viewform'}>
+              <p className="text-white text-center mt-4">👩🏻‍💻 Я розумію, що дуже складно купити хороший якісний продукт, який дасть результат!</p>
+              <p className="text-white text-center mt-4 mb-4">Тому пропоную тобі подивитися демо мого продукту, де ти точно переконаєшся в його цінності і в легкості подачі, а також отримаєш круті інсайти!</p>
+              <Link href={'https://secure.wayforpay.com/button/b438a91399378'}>
                 <Button className={"w-full"}>
-                  Записатись
+                  Відкрити демо за 1$
                 </Button>
               </Link>
 
