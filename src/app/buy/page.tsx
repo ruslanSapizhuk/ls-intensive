@@ -60,7 +60,7 @@ export default function Buy() {
                                     <span className={"font-bold text-[40px]"}>$19</span>
                                 </p>
                                 <p className={"text-xl font-bold text-center mb-6"}>
-                                    Якщо додати ці 4 продукти до інтенсиву з бонусами то вийде
+                                    Якщо додати ці 4 продукти до курсу з бонусами то вийде
                                 </p>
                                 <ul className={"mb-5"}>
                                     <li>
