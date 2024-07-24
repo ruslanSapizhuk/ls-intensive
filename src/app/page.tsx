@@ -165,7 +165,7 @@ export default function Home() {
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">7.</p>
-              <p className="text-[13px] font-bold pr-2">🌍Як перетворити свій Інфо продукт на EdTech стартап за допомогою No-code підходу та вийти на міжнародний ринок!</p>
+              <p className="text-[13px] font-bold pr-2">🌍 Як перетворити свій Інфо продукт на EdTech стартап за допомогою No-code підходу та вийти на міжнародний ринок!</p>
               <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
