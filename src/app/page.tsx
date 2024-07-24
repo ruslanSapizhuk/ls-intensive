@@ -46,7 +46,7 @@ export default function Home() {
                 Курс від Лани сапіжук
               </h2>
               <h2 className="text-3xl mt-1 uppercase font-bold mb-10 text-dark">
-                Запусти свій інфо продукт та перетвори його в ІТ Edtech стартап за 14 днів
+                Запусти свій інфо продукт та перетвори його в ІТ Edtech стартап < br />за 14 днів
               </h2>
               <p className="mb-2 text-2xl">
                 Підходить для <b>експертів</b> з будь якої ніші (ІТ, AI, Фітнес, Б&#39;юті, Наука і т.д.), спеціалістів,
@@ -54,7 +54,7 @@ export default function Home() {
               </p>
               <div className={"bg-white rounded-3xl p-5 mb-5"}>
                 <p className="mb-5 text-center font-bold text-[23px]">
-                  Зрозумій біль, зроби продукт, налаштуй робочі воронки, залучи трафік та продавай від < br />1000 $ на місяць👇
+                  Зрозумій біль, зроби продукт, налаштуй робочі воронки, залучи трафік та продавай від < br />10,000 $ на міжнародний ринок уже через 14 днів👇
                 </p>
                 <ul className="mb-5 text-left">
                   <li className="mb-2">
@@ -79,7 +79,7 @@ export default function Home() {
                     ✅ на високі чеки, за рахунок доп. продажів інших продуктів по воронці
                   </li>
                   <li className="mb-2">
-                    ✅ на міжнародні ринки завдяки АІ локалізації та секрету, який розповім на курсі!
+                    ✅ на міжнародні ринки завдяки АІ локалізації, No-code підходу та секретних інструментів!
                   </li>
                 </ul>
                 <p className="text-xl text-default font-bold uppercase mb-5 max-w-lg text-center">
@@ -118,7 +118,7 @@ export default function Home() {
                 <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-cover mr-5 flex-shrink-0"></Image><b>Запустила Lifestyle та Edtech продуктів на 1🍋💸</b></li>
                 <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-cover mr-5 flex-shrink-0"></Image><p><b>8 р. в ІТ,</b> створювала ІТ продукти для бізнесу, відомих брендів та блогерів мільйонників</p>
                 </li>
-                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p>Навчила більше <b>200 людей</b> запускам онлайн продуктів</p></li>
+                <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p><span className="font-bold">Навчила</span>  більше <b>200 людей</b> запускам онлайн продуктів</p></li>
                 <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p><b>Блогер:</b> експертний блог в IG 7к+ аудиторії</p></li>
                 <li className={"mb-3 flex items-center text-lg"}><Image src={star} alt={"star"} width={10} className="object-contain mr-5 flex-shrink-0"></Image><p>Запустила фітнес платформу (сайт та додаток) з <b>0 до 250к реєстрацій</b></p></li>
               </ul>
@@ -141,31 +141,31 @@ export default function Home() {
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">3.</p>
-              <p className="text-[13px] font-bold pr-2">Як створити продуктову лінійку - лід магніт, тріпваєр, основний продукт, даунсейл продукт. Які програми використати щоб записати лекції та як це робити!</p>
+              <p className="text-[13px] font-bold pr-2">Як створити продуктову лінійку, а саме лід магніт, тріпваєр, основний продукт, даунсейл продукт. Розбір 3-х самих популярних інструментів для упаковки інфо продуктів.</p>
               <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">4.</p>
-              <p className="text-[13px] font-bold pr-2">Як швидко створити перше MVP інфо продукту з мінімальними зусиллями та затратами по бюджету</p>
+              <p className="text-[13px] font-bold pr-2">Як швидко зробити локалізацію свого продукту на всі мови світу за допомогою АІ</p>
               <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">5.</p>
-              <p className="text-[13px] font-bold pr-2">Які воронки вибрати для старту. Розбір топ 5-ти самих дієвих воронок, для продажів інфо продуктів в 2024 році</p>
+              <p className="text-[13px] font-bold pr-2">Який тип монетизації вибрати. Розбір топ 3-х найпопулярниших типів монетизації для міжнародних ринків.</p>
               <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">6.</p>
-              <p className="text-[13px] font-bold pr-2">Як залучати платний трафік за допомогою таргету та безкоштовний за допомогою соц. мереж та контенту</p>
+              <p className="text-[13px] font-bold pr-2">Які воронки вибрати для старту. Розбір топ 5-ти самих дієвих воронок, для продажів інфо продуктів в 2024 р.</p>
               <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">7.</p>
-              <p className="text-[13px] font-bold pr-2">Як перетворити свій Інфо продукт на EdTech стартап та вийти на міжнародні ринки!🌍</p>
+              <p className="text-[13px] font-bold pr-2">Як перетворити свій Інфо продукт на EdTech стартап за допомогою No-code підходу та вийти на міжнародний ринок!🌍</p>
               <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
             </div>
 
@@ -182,7 +182,7 @@ export default function Home() {
                 className={"text-5xl font-extrabold mb-5"}
                 startDate={new Date("03-20-2024")} format={["hours", "minutes", "seconds"]}
               />
-              <p className={"text-white text-xl mb-5"}><s>$40</s> <b className={"text-4xl"}>$10</b></p>
+              <p className={"text-white text-xl mb-5"}><s>116 $</s> <b className={"text-4xl ml-2"}>29 $</b></p>
               <Link href={"/buy"} className={"w-full"}>
                 <Button className={"w-full"}>
                   Придбати
@@ -203,13 +203,13 @@ export default function Home() {
               </ol>
               <p className={"mb-5 text-xl uppercase"}>
                 Все разом коштує <br />
-                <p>$59</p>
+                <p>159 $</p>
               </p>
               <p className={"mb-1 text-[24px] uppercase font-bold text-default"}>
                 Але зараз:
               </p>
               <p className={"mb-5 text-[40px] uppercase font-bold text-default"}>
-                $10
+                29 $
               </p>
               <Link href={"/buy"}>
                 <Button className={"w-full"}>
