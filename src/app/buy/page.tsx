@@ -68,11 +68,11 @@ export default function Buy() {
                                     </li>
                                 </ul>
                                 <p className={"text-2xl text-default text-center font-bold mb-5"}>
-                                    Все разом < br/>$29 + $19 = $29
+                                    Все разом < br/>$29 + $19 = $48
                                 </p>
                                 <Link href={"https://secure.wayforpay.com/button/b23382fa2f335"}>
                                     <Button className={"w-full"}>
-                                        Придбати все за $29
+                                        Придбати все за $48
                                     </Button>
                                 </Link>
                             </div>
