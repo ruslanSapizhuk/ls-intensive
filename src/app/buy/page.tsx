@@ -19,7 +19,7 @@ export default function Buy() {
                         <div>
                             <Link href={"https://secure.wayforpay.com/button/bfac208013485"}>
                                 <Button className={"w-full bg-dark"}>
-                                    Курс + 2 бонуси за 10 $
+                                    Курс + 2 бонуси за 49 $
                                 </Button>
                             </Link>
                             <h2 className="text-[28px] text-center mt-5 uppercase font-bold mb-4 text-dark p-4">
