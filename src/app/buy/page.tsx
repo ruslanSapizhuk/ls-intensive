@@ -50,11 +50,11 @@ export default function Buy() {
                                 </ol>
                                 <p className={"uppercase text-center text-xl mb-5"}>
                                     Тобто <br />все разом коштує <br />
-                                    $80
+                                    $124
                                 </p>
                                 <p className={"text-center text-[24px] font-bold text-default uppercase mb-5 leading-9"}>
                                     Але зараз: <br />
-                                    <span className={"font-bold text-[40px]"}>$19</span>
+                                    <span className={"font-bold text-[40px]"}>$29</span>
                                 </p>
                                 <p className={"text-xl font-bold text-center mb-6"}>
                                     Якщо додати ці 4 продукти до курсу з бонусом то вийде
@@ -68,11 +68,11 @@ export default function Buy() {
                                     </li>
                                 </ul>
                                 <p className={"text-2xl text-default text-center font-bold mb-5"}>
-                                    Все разом < br/>$29 + $19 = $48
+                                    Все разом < br/>$49 + $29 = $78
                                 </p>
                                 <Link href={"https://secure.wayforpay.com/button/b23382fa2f335"}>
                                     <Button className={"w-full"}>
-                                        Придбати все за $48
+                                        Придбати все за $78
                                     </Button>
                                 </Link>
                             </div>
@@ -81,7 +81,7 @@ export default function Buy() {
                             <p className="text-center text-xl font-bold my-5">Але якщо ти хочеш лише курс та бонус, тоді ось кнопка </p>
                             <Link href={"https://secure.wayforpay.com/button/bfac208013485"}>
                                 <Button className={"w-full bg-dark"}>
-                                    Курс + 2 бонуси за 29 $
+                                    Курс + 2 бонуси за 49 $
                                 </Button>
                             </Link>
                         </div>

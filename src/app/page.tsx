@@ -19,9 +19,16 @@ import YuliyaLisenko from "@/assets/YuliyaLisenko.png";
 import hart from "@/assets/hart.png";
 import bonus from "@/assets/bonus.jpeg";
 import star from "@/assets/star.png";
-import lock from "@/assets/lockimg.png";
 import instagram from "@/assets/instagram.svg";
 import flag from "@/assets/UKflag.png";
+import lock1 from "@/assets/lana/1.png";
+import lock2 from "@/assets/lana/2.png";
+import lock3 from "@/assets/lana/3.png";
+import lock4 from "@/assets/lana/4.png";
+import lock5 from "@/assets/lana/5.png";
+import lock6 from "@/assets/lana/6.png";
+import lock7 from "@/assets/lana/7.png";
+
 
 
 export default function Home() {
@@ -39,8 +46,8 @@ export default function Home() {
           </header>
           <section className={"mb-10 p-2"}>
             <div className="text-center">
-              <div className="text-m px-5 py-2 text-center normal-case font-light rounded bg-label ">
-                Лише сьогоні зі знижкою 75%
+              <div className="text-[18px] px-5 py-2 text-center normal-case font-light rounded bg-label ">
+                <span className="font-bold">Старт курсу 2 вересня!</span> < br />Встигни Забрати Місце За Ціною Передпродажі!
               </div>
               <h2 className="uppercase font-bold mt-6 text-xl">
                 Курс від Лани сапіжук
@@ -130,59 +137,59 @@ export default function Home() {
             <div className="flex bg-white p-2 rounded-md mb-3 mt-5">
               <p className="text-sm mr-2 font-bold">1.</p>
               <p className="text-[13px] font-bold pr-2">Як проаналізувати ринок та конкурентів, знайти біль та свою ЦА </p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock1} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">2.</p>
               <p className="text-[13px] font-bold pr-2">Як  створити правильне позиціонування, а також свою унікальну торгову пропозицію (УТП)</p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock2} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">3.</p>
               <p className="text-[13px] font-bold pr-2">Як створити продуктову лінійку, а саме лід магніт, тріпваєр, основний продукт, даунсейл продукт. Розбір 3-х самих популярних інструментів для упаковки інфо продуктів.</p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock3} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">4.</p>
               <p className="text-[13px] font-bold pr-2">Як швидко зробити локалізацію свого продукту на всі мови світу за допомогою АІ</p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock4} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">5.</p>
               <p className="text-[13px] font-bold pr-2">Який тип монетизації вибрати. Розбір топ 3-х найпопулярниших типів монетизації для міжнародних ринків.</p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock5} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">6.</p>
               <p className="text-[13px] font-bold pr-2">Які воронки вибрати для старту. Розбір топ 5-ти самих дієвих воронок, для продажів інфо продуктів в 2024 р.</p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock6} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">7.</p>
               <p className="text-[13px] font-bold pr-2">🌍 Як перетворити свій Інфо продукт на EdTech стартап за допомогою No-code підходу та вийти на міжнародний ринок!</p>
-              <Image src={lock} alt={"lock"} width={130} height={10} className="object-contain rounded-[5px]"></Image>
+              <Image src={lock7} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
           </section>
           <section className="mb-10">
           </section>
           <section className="mb-10" id="pay">
-            <h2 className={"text-2xl text-center font-bold mb-5"}>
+            <h2 className={"text-2xl text-center font-bold mb-5 mx-10"}>
               Приєднуйтесь до курсу вже зараз за спеціальною, обмеженою у часі пропозицією
             </h2>
             <div className="text-center rounded-2xl bg-default p-5 flex flex-col items-center mb-5 mx-8">
-              <p className={"text-xl mb-3 w-60"}>До старту навчання залишилось</p>
+              <p className={"text-xl mb-3 w-60"}>До завершення передпродажів залишилось</p>
               <CountDown
                 className={"text-5xl font-extrabold mb-5"}
-                startDate={new Date("03-20-2024")} format={["hours", "minutes", "seconds"]}
+                startDate={new Date()} format={["days", "hours", "minutes", "seconds"]}
               />
-              <p className={"text-white text-xl mb-5"}><s>116 $</s> <b className={"text-4xl ml-2"}>29 $</b></p>
+              <p className={"text-white text-xl mb-5"}><s>210 $</s> <b className={"text-4xl ml-2"}>49 $</b></p>
               <Link href={"/buy"} className={"w-full"}>
                 <Button className={"w-full"}>
                   Придбати
@@ -203,13 +210,13 @@ export default function Home() {
               </ol>
               <p className={"mb-5 text-xl uppercase"}>
                 Все разом коштує <br />
-                <p>159 $</p>
+                <p>249 $</p>
               </p>
               <p className={"mb-1 text-[24px] uppercase font-bold text-default"}>
                 Але зараз:
               </p>
               <p className={"mb-5 text-[40px] uppercase font-bold text-default"}>
-                29 $
+                49 $
               </p>
               <Link href={"/buy"}>
                 <Button className={"w-full"}>
