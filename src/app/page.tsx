@@ -47,7 +47,7 @@ export default function Home() {
           <section className={"mb-10 p-2"}>
             <div className="text-center">
               <div className="text-[18px] px-5 py-2 text-center normal-case font-light rounded bg-label ">
-                <span className="font-bold">Старт курсу 2 вересня!</span> < br />Встигни Забрати Місце За Ціною Передпродажі!
+                <span className="font-bold">Старт курсу 2 вересня!</span> < br />Встигни Забрати Місце За Ціною Передпродажів!
               </div>
               <h2 className="uppercase font-bold mt-6 text-xl">
                 Курс від Лани сапіжук
