@@ -51,13 +51,18 @@ export default function Home() {
                   <p className="text-[14px] text-[#8B99B4]">🕑 Акційна пропозиція</p>
                   <CountDown
                     className={"text-2xl font-extrabold text-dark"}
-                    startDate={new Date()} format={["hours", "minutes"]}
+                    startDate={new Date()} format={["hours", "minutes", "seconds"]}
                   />
-                  <p className="text-[14px] text-[#8B99B4]">год &nbsp;&nbsp;хв</p>
+                  <p className="text-[14px] text-[#8B99B4]">год&nbsp;&nbsp;&nbsp;хв&nbsp;&nbsp;&nbsp;сек</p>
                 </div>
                 <div className="w-full flex justify-center">
                   <Link href={"#pay"}>
-                    <button className="rounded bg-dark text-[13px] text-white px-4 py-1 w-[150px] flex-auto justify-center">Взяти участь зі знижкою - 75%</button>
+                    <div className="relative flex items-center justify-center">
+                      <div className="absolute rounded-xl border-4 border-white animate-ping w-full h-full -m-2 z-0 bg-dark"></div>
+                      <button className="relative rounded-xl bg-dark text-[13px] text-white px-4 py-1 w-[150px] z-10 flex items-center justify-center">
+                        Взяти участь зі знижкою - 75%
+                      </button>
+                    </div>
                   </Link>
                 </div>
               </div>
