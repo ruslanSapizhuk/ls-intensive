@@ -51,7 +51,7 @@ export default function Home() {
                   <p className="text-[14px] text-[#8B99B4]">🕑 Акційна пропозиція</p>
                   <CountDown
                     className={"text-2xl font-extrabold text-dark"}
-                    startDate={new Date()} format={["hours", "minutes", "seconds"]}
+                    startDate={new Date()} format={["hours", "minutes"]}
                   />
                   <p className="text-[14px] text-[#8B99B4]">год &nbsp;&nbsp;хв</p>
                 </div>
