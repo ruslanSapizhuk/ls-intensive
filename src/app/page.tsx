@@ -39,25 +39,42 @@ export default function Home() {
         <main>
           <header className={"mb-5"}>
             <div className="text-3xl dark:text-black text-center">
-              <b>
+              <b className="leading-10">
                 by LANA SAPIZHUK
               </b>
             </div>
           </header>
           <section className={"mb-10 p-2"}>
             <div className="text-center">
-              <div className="text-[18px] px-5 py-2 text-center normal-case font-light rounded bg-label ">
-                <span className="font-bold">Старт курсу 2 вересня!</span> < br />Встигни Забрати Місце За Ціною Передпродажів!
+              <div className="bg-white flex items-center justify-center">
+                <div className="w-full px-4 py-2">
+                  <p className="text-[14px] text-[#8B99B4]">🕑 Акційна пропозиція</p>
+                  <CountDown
+                    className={"text-2xl font-extrabold text-dark"}
+                    startDate={new Date()} format={["hours", "minutes", "seconds"]}
+                  />
+                  <p className="text-[14px] text-[#8B99B4]">год &nbsp;&nbsp;хв</p>
+                </div>
+                <div className="w-full flex justify-center">
+                  <Link href={"#pay"}>
+                    <button className="rounded bg-dark text-[13px] text-white px-4 py-1 w-[150px] flex-auto justify-center">Взяти участь зі знижкою - 75%</button>
+                  </Link>
+                </div>
               </div>
               <h2 className="uppercase font-bold mt-6 text-xl">
                 Курс від Лани сапіжук
               </h2>
-              <h2 className="text-3xl mt-1 uppercase font-bold mb-10 text-dark">
-                Запусти свій інфо продукт та перетвори його в ІТ Edtech стартап < br />за 14 днів
+              <h2 className="text-3xl mt-1 uppercase font-bold mb-5 text-dark">
+                перетвори свій інфо курс в ІТ Edtech продукт та запускай на міжнародні ринки
+                всього за 14 днів< br />
+                <span className="font-normal text-black">🔥 за допомого NO-COde підходу та IA інструментів! </span>
               </h2>
-              <p className="mb-2 text-2xl">
-                Підходить для <b>експертів</b> з будь якої ніші (ІТ, AI, Фітнес, Б&#39;юті, Наука і т.д.), спеціалістів,
-                продюсерів, маркетологів
+              <div className="text-[18px] px-5 py-2 text-center normal-case font-light rounded bg-label mb-5">
+                <span className="font-bold">Старт курсу 2 вересня!</span>
+              </div>
+              <p className="mb-4 text-2xl">
+                Підходить для <b>експертів</b> з будь якої ніші (ІТ, AI, Фітнес, Б&#39;юті, Наука і т.д.), <b>спеціалістів,
+                  продюсерів, маркетологів</b>
               </p>
               <div className={"bg-white rounded-3xl p-5 mb-5"}>
                 <p className="mb-5 text-center font-bold text-[23px]">
@@ -80,13 +97,13 @@ export default function Home() {
                     🔹 без привʼязки до дати запуску, відразу продажі та видача матеріалу
                   </li>
                   <li className="mb-2">
-                    ✅ навіть коли ти спиш
+                    ✅ в кайфі та легкості за допомогою підходу No-Code, та AI інструментам
                   </li>
                   <li className="mb-2">
-                    ✅ на високі чеки, за рахунок доп. продажів інших продуктів по воронці
+                    ✅ на міжнародні ринки - США, Європа, Азія та інші
                   </li>
                   <li className="mb-2">
-                    ✅ на міжнародні ринки завдяки АІ локалізації, No-code підходу та секретних інструментів!
+                    ✅ на високі чеки за рахунок LTV
                   </li>
                 </ul>
                 <p className="text-xl text-default font-bold uppercase mb-5 max-w-lg text-center">
@@ -172,7 +189,7 @@ export default function Home() {
 
             <div className="flex bg-white p-2 rounded-md mb-3">
               <p className="text-sm mr-2 font-bold">7.</p>
-              <p className="text-[13px] font-bold pr-2">🌍 Як перетворити свій Інфо продукт на EdTech стартап за допомогою No-code підходу та вийти на міжнародний ринок!</p>
+              <p className="text-[13px] font-bold pr-2">🌍 Як перетворити свій Інфо курс в ІТ EdTech продукт за допомогою No-code підходу та вийти на міжнародний ринок!</p>
               <Image src={lock7} alt={"lock"} width={130} height={10} className="object-contain"></Image>
             </div>
 
@@ -184,10 +201,10 @@ export default function Home() {
               Приєднуйтесь до курсу вже зараз за спеціальною, обмеженою у часі пропозицією
             </h2>
             <div className="text-center rounded-2xl bg-default p-5 flex flex-col items-center mb-5 mx-8">
-              <p className={"text-xl mb-3 w-60"}>До завершення передпродажів залишилось</p>
+              <p className={"text-xl mb-3 w-60"}>До завершення знижки залишилось</p>
               <CountDown
                 className={"text-5xl font-extrabold mb-5"}
-                startDate={new Date()} format={["days", "hours", "minutes", "seconds"]}
+                startDate={new Date()} format={["hours", "minutes", "seconds"]}
               />
               <p className={"text-white text-xl mb-5"}><s>210 $</s> <b className={"text-4xl ml-2"}>49 $</b></p>
               <Link href={"/buy"} className={"w-full"}>

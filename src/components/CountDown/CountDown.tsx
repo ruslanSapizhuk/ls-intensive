@@ -18,7 +18,7 @@ export const CountDown: FC<Props> = ({ startDate, format, className }) => {
         if (storedEndDate) {
             setEndDate(new Date(storedEndDate)); 
         } else {
-            const newEndDate = new Date(startDate.getTime() + 3 * 24 * 60 * 60 * 1000); 
+            const newEndDate = new Date(startDate.getTime() + 1 * 24 * 60 * 60 * 1000); 
             setEndDate(newEndDate);
             localStorage.setItem("endDate", newEndDate.toISOString()); 
         }
