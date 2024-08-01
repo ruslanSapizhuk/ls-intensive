@@ -222,7 +222,7 @@ export default function Home() {
             </div>
             <div className={"bg-white rounded-3xl p-5 text-center mx-2"}>
               <p className={"mb-5 text-xl font-bold"}>
-                При покупці практикуму ти отримаєш 2 крутезних бонуса від моєї команди в подарунок 🎁
+                При покупці курсу ти отримаєш 2 крутезних бонуса від моєї команди в подарунок 🎁
               </p>
               <ol className={"text-left list-decimal list-inside text-xl font-default"}>
                 <li className={"mb-5"}>
