@@ -74,7 +74,7 @@ export default function Home() {
               <h2 className="text-[26px] mt-3 uppercase font-bold mb-5 text-dark">
                 перетвори свій інфо курс в ІТ Edtech продукт та запускай на міжнародні ринки
                 всього за 14 днів< br />
-                <span className="font-normal text-black text-[20px]">🔥 за допомого <br /><b>NO-COde </b>підходу та <b>AI</b> інструментам! </span>
+                <span className="font-normal text-black text-[20px]">🔥 за допомогою <br /><b>NO-COde </b>підходу та <b>AI</b> інструментам! </span>
               </h2>
               <div className="text-[18px] px-5 py-2 text-center normal-case font-light rounded bg-label mb-5">
                 <span className="font-bold">Старт курсу 2 вересня!</span>
