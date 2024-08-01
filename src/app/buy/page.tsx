@@ -10,8 +10,10 @@ export default function Buy() {
                 <main>
                     <header className={"mb-5"}>
                         <div className="text-2xl text-center mt-5">
-                            <b>
-                                by LANA SAPIZHUK
+                            <b className="leading-10">
+                                <span className="text-dark">Startup </span>
+                                <span>Growth Academy</span>< br />
+                                by Lana Sapizhuk
                             </b>
                         </div>
                     </header>
@@ -68,7 +70,7 @@ export default function Buy() {
                                     </li>
                                 </ul>
                                 <p className={"text-2xl text-default text-center font-bold mb-5"}>
-                                    Все разом < br/>$49 + $29 = $78
+                                    Все разом < br />$49 + $29 = $78
                                 </p>
                                 <Link href={"https://secure.wayforpay.com/button/b23382fa2f335"}>
                                     <Button className={"w-full"}>
