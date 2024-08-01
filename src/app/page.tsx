@@ -38,9 +38,11 @@ export default function Home() {
       <div className={"md:w-96 mx-auto bg-fill pt-4"}>
         <main>
           <header className={"mb-5"}>
-            <div className="text-3xl dark:text-black text-center">
+            <div className="text-[28px] dark:text-black text-center">
               <b className="leading-10">
-                by LANA SAPIZHUK
+                <span className="text-dark">Startup </span>
+                <span>Growth Academy</span>< br />
+                by Lana Sapizhuk
               </b>
             </div>
           </header>
@@ -58,21 +60,21 @@ export default function Home() {
                 <div className="w-full flex justify-center">
                   <Link href={"#pay"}>
                     <div className="relative flex items-center justify-center">
-                      <div className="absolute rounded-xl border-4 border-white animate-ping w-full h-full -m-2 z-0 bg-dark"></div>
-                      <button className="relative rounded-xl bg-dark text-[13px] text-white px-4 py-1 w-[150px] z-10 flex items-center justify-center">
+                      {/* <div className="absolute rounded-xl border-4 border-white w-full h-full -m-2 z-0 bg-dark"></div> */}
+                      <button className="relative rounded-[25px] bg-dark text-[13px] text-white px-4 py-1 w-[150px] z-10 flex items-center justify-center">
                         Взяти участь зі знижкою - 75%
                       </button>
                     </div>
                   </Link>
                 </div>
               </div>
-              <h2 className="uppercase font-bold mt-6 text-xl">
-                Курс від Лани сапіжук
+              <h2 className="uppercase font-bold mt-6 text-[20px]">
+                онлайн курс
               </h2>
-              <h2 className="text-3xl mt-1 uppercase font-bold mb-5 text-dark">
+              <h2 className="text-[26px] mt-3 uppercase font-bold mb-5 text-dark">
                 перетвори свій інфо курс в ІТ Edtech продукт та запускай на міжнародні ринки
                 всього за 14 днів< br />
-                <span className="font-normal text-black">🔥 за допомого NO-COde підходу та IA інструментів! </span>
+                <span className="font-normal text-black text-[20px]">🔥 за допомого <br /><b>NO-COde </b>підходу та <b>AI</b> інструментам! </span>
               </h2>
               <div className="text-[18px] px-5 py-2 text-center normal-case font-light rounded bg-label mb-5">
                 <span className="font-bold">Старт курсу 2 вересня!</span>
@@ -203,7 +205,7 @@ export default function Home() {
           </section>
           <section className="mb-10" id="pay">
             <h2 className={"text-2xl text-center font-bold mb-5 mx-10"}>
-              Приєднуйтесь до курсу вже зараз за спеціальною, обмеженою у часі пропозицією
+              Приєднуйся до курсу вже зараз за спеціальною, обмеженою у часі пропозицією
             </h2>
             <div className="text-center rounded-2xl bg-default p-5 flex flex-col items-center mb-5 mx-8">
               <p className={"text-xl mb-3 w-60"}>До завершення знижки залишилось</p>

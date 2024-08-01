@@ -31,9 +31,24 @@ module.exports = {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
+        buttonPing: {
+          '0%': {
+            transform: 'scale(1)', 
+            opacity: '1', 
+          },
+          '70%': {
+            transform: 'scale(1.4)', 
+            opacity: '0', 
+          },
+          '100%': {
+            transform: 'scale(1.4)', 
+            opacity: '0', 
+          },
+        }
       },
       animation: {
         marquee: 'marquee 15s linear infinite',
+        buttonPing: 'buttonPing 1.5s infinite'
       },
     },
     rotate: {

@@ -22,14 +22,16 @@ export default function Success() {
                 <main className="bg-gradientfill">
                     <header className={"mb-5"}>
                         <div className="text-2xl text-center pt-10">
-                            <b>
-                                by LANA SAPIZHUK
+                            <b className="leading-10">
+                                <span className="text-dark">Startup </span>
+                                <span>Growth Academy</span>< br />
+                                by Lana Sapizhuk
                             </b>
                         </div>
                     </header>
                     <section className={"mb-10"}>
                         <div>
-                            <h2 className="text-3xl text-center mt-5 uppercase font-bold mb-10 text-default">
+                            <h2 className="text-[28px] text-center mt-5 uppercase font-bold mb-10 text-default">
                                 Оплата пройшла успішно
                             </h2>
 
